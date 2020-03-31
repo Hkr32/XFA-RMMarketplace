@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="." thousands_separator="," label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="XFA/RMMarketplace" base_version_id="904020290" export_version="2">
+  <phrase title="admin_navigation.featuringDuration" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Сроки продвижений]]></phrase>
+  <phrase title="admin_navigation.featuringPurchase" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Покупки продвижений]]></phrase>
+  <phrase title="admin_navigation.xfa_rmmp" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[RM Marketplace]]></phrase>
+  <phrase title="admin_navigation.xfa_rmmp_options" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Настройки]]></phrase>
+  <phrase title="alert_opt_out.xfa_rmmp_out_of_stock" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Покупает последний товар на Вашем складе]]></phrase>
+  <phrase title="alert_opt_out.xfa_rmmp_purchase_complete" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Покупает один из Ваших ресурсов]]></phrase>
+  <phrase title="alert_opt_out.xfa_rmmp_purchase_renewal_complete" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Продлевает лицензию на один из Ваших ресурсов]]></phrase>
+  <phrase title="alert_opt_out.xfa_rmmp_refund_complete" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Была возмещена стоимость покупки одного из Ваших ресурсов]]></phrase>
+  <phrase title="alert_opt_out.xfa_rmmp_refund_renewal_complete" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Возмещение стоимости одного из Ваших ресурсов завершено]]></phrase>
+  <phrase title="cron_entry.xfa_rmmp_daily_cleanup" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[[XFA] RM Marketplace: Ежедневная очистка]]></phrase>
+  <phrase title="cron_entry.xfa_rmmp_unfeature" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[[XFA] RM Marketplace: Заканчивающиеся продвижения]]></phrase>
+  <phrase title="nav.xfa_rmmp_dashboard" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Панель продавца]]></phrase>
+  <phrase title="nav.xfa_rmmp_licenses" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Ваши лицензии]]></phrase>
+  <phrase title="nav.xfa_rmmp_purchases" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Ваши покупки]]></phrase>
+  <phrase title="option.xfa_rmmp_activateAltResourceDisplay" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Активировать альтернативное отображение ресурсов на всех страницах]]></phrase>
+  <phrase title="option.xfa_rmmp_activateAltResourceDisplayOnIndex" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Активировать альтернативное отображение ресурсов на главной]]></phrase>
+  <phrase title="option.xfa_rmmp_activateInvoicing" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Активировать выставление счетов]]></phrase>
+  <phrase title="option.xfa_rmmp_default_stat_currency" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Валюта статистики по умолчанию]]></phrase>
+  <phrase title="option.xfa_rmmp_default_stat_type" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Тип статистики по умолчанию]]></phrase>
+  <phrase title="option.xfa_rmmp_featuring_purchase_currency" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Валюта покупки продвижения ресурса]]></phrase>
+  <phrase title="option.xfa_rmmp_invoicesDateFormat" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Формат даты счета]]></phrase>
+  <phrase title="option.xfa_rmmp_invoicesLanguage" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Язык счета]]></phrase>
+  <phrase title="option.xfa_rmmp_invoicesTimeFormat" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Формат времени счета]]></phrase>
+  <phrase title="option.xfa_rmmp_licence_blacklist" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Черный список доменных имен]]></phrase>
+  <phrase title="option.xfa_rmmp_licence_verif_method" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Метод проверки доменного имени]]></phrase>
+  <phrase title="option.xfa_rmmp_minimumPrice" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Минимальная цена ресурса]]></phrase>
+  <phrase title="option.xfa_rmmp_moderateFeaturings" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Модерировать платное продвижение ресурсов]]></phrase>
+  <phrase title="option.xfa_rmmp_paypal" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Адрес Paypal]]></phrase>
+  <phrase title="option.xfa_rmmp_paypal_testing" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Активировать режим тестирования для PayPal]]></phrase>
+  <phrase title="option.xfa_rmmp_purchasePerPage" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Количество Покупок/Лицензий на странице]]></phrase>
+  <phrase title="option.xfa_rmmp_sale_percentage" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Процент от продаж]]></phrase>
+  <phrase title="option.xfa_rmmp_showCgvInTab" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Показать условия и положения на вкладке]]></phrase>
+  <phrase title="option.xfa_rmmp_usAddressFormat" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Формат адреса доставки как для США]]></phrase>
+  <phrase title="option.xfa_rmmp_usergroup_onbuy" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Переместить в группу пользователей при покупке]]></phrase>
+  <phrase title="option_explain.xfa_rmmp_activateAltResourceDisplay" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Если для этого параметра установлено значение «да», ресурсы будут отображаться в виде сетки на главной и во всех ваших категориях с определенным изображением для ресурса, настраиваемым через страницу ресурса.<br />
+Если не установлено, вы можете настроить его по категориям.]]></phrase>
+  <phrase title="option_explain.xfa_rmmp_activateAltResourceDisplayOnIndex" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Если для этого параметра установлено значение «да», ресурсы будут отображаться в виде сетки на главной с определенным изображением для ресурса, настраиваемым через страницу ресурса..<br />
+Обратите внимание, что если установлен предыдущий параметр, этот параметр не действует.]]></phrase>
+  <phrase title="option_explain.xfa_rmmp_activateInvoicing" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Установите для этого параметра значение «да», чтобы разрешить продавцам активировать выставление счетов.<br />
+Обязательно следуйте инструкциям <a href="http://xen-factory.com/index.php?documents/rm-marketplace-forum-sales.112/">здесь</a>, прежде чем активировать его.]]></phrase>
+  <phrase title="option_explain.xfa_rmmp_default_stat_currency" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Выберите используемую по умолчанию валюту статистики.]]></phrase>
+  <phrase title="option_explain.xfa_rmmp_default_stat_type" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Выберите диапазон времени по умолчанию для использования.]]></phrase>
+  <phrase title="option_explain.xfa_rmmp_featuring_purchase_currency" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Выберите валюту, которая будет использоваться для ресурсов с покупками.]]></phrase>
+  <phrase title="option_explain.xfa_rmmp_invoicesDateFormat" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Формат даты PHP]]></phrase>
+  <phrase title="option_explain.xfa_rmmp_invoicesLanguage" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Введите код языка, на котором должны быть сгенерированы счета.<br />
+Поддерживаемые значения: de, en, es, fr, it, nl<br />
+Если Вашего языка нет в списке, создайте новый файл в каталоге src/addons/XFA/Core/vendors/pdf-invoicr/inc/languages, скопировав один из существующих файлов и введя новое значение здесь.]]></phrase>
+  <phrase title="option_explain.xfa_rmmp_invoicesTimeFormat" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Формат времени PHP]]></phrase>
+  <phrase title="option_explain.xfa_rmmp_licence_blacklist" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Введите в этот список домен, который вы хотите запретить в адресе (например, google.com, ...). Может быть полезно для злоумышленников, которые просто не хотят вводить свое реальное доменное имя.<br />
+Введите одно доменное имя на одну строку (без http:// и завершающего слеша).]]></phrase>
+  <phrase title="option_explain.xfa_rmmp_licence_verif_method" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Для цифровых продуктов с ограниченным доступом к веб-сайту реализован метод проверки лицензии.<br />
+Вы можете включить его с помощью этой опции, выбрав наиболее подходящий метод для вашего сайта.<br /><br />
+Чтобы найти лучший метод, Вы можете использовать файл validate_url_test.php, предоставленный в пакете MarketPlace, загрузить его в корневой каталог Вашего форума и вызвать этот файл в браузере, чтобы найти лучший метод. Не забудьте удалить его, как только Вы закончите.]]></phrase>
+  <phrase title="option_explain.xfa_rmmp_minimumPrice" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Установите для этой опции значение больше 0, чтобы установить минимальную цену за ресурсы.]]></phrase>
+  <phrase title="option_explain.xfa_rmmp_moderateFeaturings" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Установите для этого параметра значение «да», если Вы хотите проверять каждый ресурс с запросом на продвижение]]></phrase>
+  <phrase title="option_explain.xfa_rmmp_paypal" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Введите адрес PayPal, который будет использоваться для:<br />
+- Категории настроены на использование информации на форуме для категорий MarketPlace<br />
+- Получение процента с продаж<br />
+- Оплаты за продвижение ресурса]]></phrase>
+  <phrase title="option_explain.xfa_rmmp_paypal_testing" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Заменяет стандартный URL-адрес на URL-адрес песочницы для выполнения тестов]]></phrase>
+  <phrase title="option_explain.xfa_rmmp_purchasePerPage" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Установите количество покупок или лицензий, отображаемых на странице, на вкладке просмотра ресурсов.]]></phrase>
+  <phrase title="option_explain.xfa_rmmp_sale_percentage" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Если Вы хотите получить процент с продаж, введите его здесь, в противном случае оставьте значение 0,00.]]></phrase>
+  <phrase title="option_explain.xfa_rmmp_showCgvInTab" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Установите этот флажок, если хотите, чтобы Условия и Положения отображались на вкладке в представлении ресурсов.]]></phrase>
+  <phrase title="option_explain.xfa_rmmp_usAddressFormat" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Отметьте это, если хотите активировать отображение в формате адреса в США, например:<br />
+Улица<br />
+Улица2<br />
+Город<br />
+Штат<br />
+Индекс<br />
+Страна<br />
+Не распространяется на уже совершенные покупки.]]></phrase>
+  <phrase title="option_explain.xfa_rmmp_usergroup_onbuy" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Выберите, в какую группу пользователей Вы хотите переместить пользователей в случае покупки.]]></phrase>
+  <phrase title="option_group.xfa_rmmp" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[[XFA] RM Marketplace]]></phrase>
+  <phrase title="option_group_description.xfa_rmmp" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Настройка дополнения RM MarketPlace от Xen Factory]]></phrase>
+  <phrase title="permission.general_canManageAllLicenses" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Управление всеми лицензиями]]></phrase>
+  <phrase title="permission.general_canViewAllSales" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Просмотр всех продаж]]></phrase>
+  <phrase title="permission.general_isASeller" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Продавец]]></phrase>
+  <phrase title="permission.resource_acceptOtherPaymentMeans" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Разрешение на другие способы оплаты]]></phrase>
+  <phrase title="permission.resource_canAskForPayment" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Продажа в категориях MarketPlace]]></phrase>
+  <phrase title="permission.resource_canBuy" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Покупка в категориях MarketPlace]]></phrase>
+  <phrase title="permission.resource_canDownloadWithoutBuying" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Скачивание без покупки]]></phrase>
+  <phrase title="permission.resource_canEditAnySale" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Редактирование любой продажи]]></phrase>
+  <phrase title="permission.resource_canPurchaseFeaturing" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Покупка продвижения ресурса]]></phrase>
+  <phrase title="permission.resource_canViewAllPurchasesLog" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Просмотр всех записей журнала покупок]]></phrase>
+  <phrase title="permission_interface.xfa_rmmp" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[[XFA] RM MarketPlace]]></phrase>
+  <phrase title="widget_def.xfa_rmmp_last_sales" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[[XFA] RMMarketplace: Последние продажи]]></phrase>
+  <phrase title="widget_def.xfa_rmmp_top_sales" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[[XFA] RMMarketplace: Топ продаж]]></phrase>
+  <phrase title="widget_def_desc.xfa_rmmp_last_sales" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Отображение последних продаж]]></phrase>
+  <phrase title="widget_def_desc.xfa_rmmp_top_sales" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Отображение топовых продаж]]></phrase>
+  <phrase title="widget_pos.xfa_rmmp_sidenav" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[[XFA] RMMarketplace: боковая навигация]]></phrase>
+  <phrase title="widget_pos_desc.xfa_rmmp_sidenav" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Отображается внутри боковой навигации на страницах панели инструментов.]]></phrase>
+  <phrase title="xfa_core_you_are_being_redirected_to_paypal_please_wait" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Вы перенаправлены в PayPal, пожалуйста, подождите.]]></phrase>
+  <phrase title="xfa_rmmp_accept" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Согласиться]]></phrase>
+  <phrase title="xfa_rmmp_accept_cgv" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Принять условия и положения]]></phrase>
+  <phrase title="xfa_rmmp_accept_other_payment_means_than_paypal" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Принимать другие варианты оплаты (наличные, чек, ...)]]></phrase>
+  <phrase title="xfa_rmmp_activate_alt_display_in_category" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Активировать альтернативное отображение ресурсов в этой категории]]></phrase>
+  <phrase title="xfa_rmmp_activate_alt_display_in_category_explain" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Если Вы установите для этой опции значение «да», ресурсы будут отображаться в виде сетки с определенным изображением для ресурса, настраиваемым через страницу ресурса.<br />
+Обратите внимание, что если опция «активации на всех страницах» активирована, этот параметр не действует.]]></phrase>
+  <phrase title="xfa_rmmp_activate_invoicing" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Активировать выставление счетов]]></phrase>
+  <phrase title="xfa_rmmp_active" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Активировать]]></phrase>
+  <phrase title="xfa_rmmp_add_duration" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Добавить продвижение]]></phrase>
+  <phrase title="xfa_rmmp_add_license" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Добавить лицензию]]></phrase>
+  <phrase title="xfa_rmmp_add_resource_image" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Добавить изображение ресурса]]></phrase>
+  <phrase title="xfa_rmmp_additional_info" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Дополнительная информация]]></phrase>
+  <phrase title="xfa_rmmp_address" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Адрес]]></phrase>
+  <phrase title="xfa_rmmp_admin_fees" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Административные сборы]]></phrase>
+  <phrase title="xfa_rmmp_admin_takes_x_percent_on_sale" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[ВНИМАНИЕ: администрация форума берет {percent}% комиссию с каждой продажи в этой категории. Эта комиссия автоматически взимается при покупке. Для получения более подробной информации, пожалуйста, свяжитесь с нами.]]></phrase>
+  <phrase title="xfa_rmmp_all_products" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Все продукты]]></phrase>
+  <phrase title="xfa_rmmp_amount" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Количество]]></phrase>
+  <phrase title="xfa_rmmp_authorize_users_to_ask_for_payments" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Разрешить пользователям запрашивать оплату за единицу товара]]></phrase>
+  <phrase title="xfa_rmmp_authorized_types" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Разрешенные типы продуктов]]></phrase>
+  <phrase title="xfa_rmmp_awaiting_moderation" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Ожидание модерации]]></phrase>
+  <phrase title="xfa_rmmp_awaiting_validation" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[В ожидании проверки]]></phrase>
+  <phrase title="xfa_rmmp_bought" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Купили]]></phrase>
+  <phrase title="xfa_rmmp_bought_by" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Купленный]]></phrase>
+  <phrase title="xfa_rmmp_buy_copy_now_for_x" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Купить копию сейчас за {cost}]]></phrase>
+  <phrase title="xfa_rmmp_can_only_validate_pending_purchase" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Вы можете подтвердить только ожидающую покупку]]></phrase>
+  <phrase title="xfa_rmmp_cant_refund_non_validated_purchase" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Вы не можете вернуть не подтвержденную покупку]]></phrase>
+  <phrase title="xfa_rmmp_cgv" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Условия и положения]]></phrase>
+  <phrase title="xfa_rmmp_cgv_explain" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Вы можете установить Общие положения и условия через панель продавца, если Вы хотите, чтобы они применялись, оставьте это поле пустым. В противном случае введите в это поле Условия использования данного ресурса.]]></phrase>
+  <phrase title="xfa_rmmp_cgvurl_explain" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Если установлено, клиент должен будет принять Ваши условия и положения, прежде чем сможет совершить покупку.<br />
+Мы рекомендуем вам поместить ссылку на простую HTML-страницу без макета, так как она будет отображаться внутри фрейма.]]></phrase>
+  <phrase title="xfa_rmmp_change" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Изменить]]></phrase>
+  <phrase title="xfa_rmmp_change_shipment_status" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Изменить статус доставки]]></phrase>
+  <phrase title="xfa_rmmp_city" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Город]]></phrase>
+  <phrase title="xfa_rmmp_click_here" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Кликните здесь]]></phrase>
+  <phrase title="xfa_rmmp_complex_curl_follow" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Способ 3 - Совокупность curl с посещением/ С последующим перенаправлением]]></phrase>
+  <phrase title="xfa_rmmp_complex_curl_no_follow" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Способ 2 - Совокупность curl с посещением / Без последующего перенаправления]]></phrase>
+  <phrase title="xfa_rmmp_configure" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Настройка]]></phrase>
+  <phrase title="xfa_rmmp_configure_statistics_display" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Настроить отображение статистики]]></phrase>
+  <phrase title="xfa_rmmp_confirm_delete_purchase" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Вы подтверждаете, что хотите удалить эту покупку?<br />
+Если продукт является цифровым, лицензия, связанная с этой покупкой, будет отключена.]]></phrase>
+  <phrase title="xfa_rmmp_confirm_duration_deletion" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Подтвердить удаление продвижения]]></phrase>
+  <phrase title="xfa_rmmp_confirm_refund_purchase" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Вы подтверждаете, что хотите возместить эту покупку?<br /><br />
+Примечание: он не выполняет автоматическое возмещение, для этого вам необходимо подключиться к своей учетной записи Paypal. Однако он сбрасывает лицензию и все, что связано с этой покупкой.]]></phrase>
+  <phrase title="xfa_rmmp_confirm_validate_purchase" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Вы подтверждаете, что хотите подтвердить эту покупку в ожидании?<br /><br />
+Примечание: все элементы, связанные с этой покупкой, будут проверены (лицензия и т. д.).]]></phrase>
+  <phrase title="xfa_rmmp_country" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Страна]]></phrase>
+  <phrase title="xfa_rmmp_currency" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Валюта]]></phrase>
+  <phrase title="xfa_rmmp_current_image" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Текущее изображение]]></phrase>
+  <phrase title="xfa_rmmp_current_logo" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Текущий логотип]]></phrase>
+  <phrase title="xfa_rmmp_current_month" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Текущий месяц]]></phrase>
+  <phrase title="xfa_rmmp_current_quarter" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Текущий квартал]]></phrase>
+  <phrase title="xfa_rmmp_current_week" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Текущая неделя]]></phrase>
+  <phrase title="xfa_rmmp_current_year" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Текущий год]]></phrase>
+  <phrase title="xfa_rmmp_custom_time_period" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Пользовательский период времени]]></phrase>
+  <phrase title="xfa_rmmp_daily" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Ежедневно]]></phrase>
+  <phrase title="xfa_rmmp_dashboard" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Панель управления продавца]]></phrase>
+  <phrase title="xfa_rmmp_dashboard_cgv_explain" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[На этой странице Вы можете настроить общие Положения и Условия, применимые к Вашим продуктам. Вы можете переопределить его для каждого ресурса через его редактирование.]]></phrase>
+  <phrase title="xfa_rmmp_dashboard_home" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Главная]]></phrase>
+  <phrase title="xfa_rmmp_dashboard_home_text" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Панель инструментов - это место, где Вы можете управлять всеми своими продажами, а также лицензиями на цифровые продукты.<br /><br />
+В будущем это будет также место, где Вы сможете найти подробную статистику о Ваших продуктах, чтобы тщательно отслеживать и оптимизировать Ваши продажи.]]></phrase>
+  <phrase title="xfa_rmmp_days_remaining" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Дней осталось]]></phrase>
+  <phrase title="xfa_rmmp_delete_current_image" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Удалить текущее изображение]]></phrase>
+  <phrase title="xfa_rmmp_delete_current_logo" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Удалить текущий логотип]]></phrase>
+  <phrase title="xfa_rmmp_delete_duration" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Удалить продвижение]]></phrase>
+  <phrase title="xfa_rmmp_delete_purchase" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Удалить покупку]]></phrase>
+  <phrase title="xfa_rmmp_delivered" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Доставлено]]></phrase>
+  <phrase title="xfa_rmmp_digital_product" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Цифровой продукт]]></phrase>
+  <phrase title="xfa_rmmp_domain_url" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[URL-адрес домена]]></phrase>
+  <phrase title="xfa_rmmp_dont_authorize_payments" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Отключить для этой категории]]></phrase>
+  <phrase title="xfa_rmmp_dont_check_url" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Не проверять URL-адрес]]></phrase>
+  <phrase title="xfa_rmmp_download_invoice" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Скачать счет]]></phrase>
+  <phrase title="xfa_rmmp_duration" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Продолжительность]]></phrase>
+  <phrase title="xfa_rmmp_edit_duration" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Редактировать продолжительность]]></phrase>
+  <phrase title="xfa_rmmp_edit_license" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Редактировать лицензию]]></phrase>
+  <phrase title="xfa_rmmp_edit_resource_image" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Редактировать изображение ресурса]]></phrase>
+  <phrase title="xfa_rmmp_edit_sale" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Редактировать продажу]]></phrase>
+  <phrase title="xfa_rmmp_edit_url_no_http" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[URL-адрес сайта (без http: //)]]></phrase>
+  <phrase title="xfa_rmmp_end_date" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Дата окончания]]></phrase>
+  <phrase title="xfa_rmmp_expire" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Истекает]]></phrase>
+  <phrase title="xfa_rmmp_expired" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Истек]]></phrase>
+  <phrase title="xfa_rmmp_explain_authorized_types" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Вы можете выбрать, какой тип продуктов может быть создан пользователями в категории.]]></phrase>
+  <phrase title="xfa_rmmp_explain_category_configuration" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[RM MarketPlace полностью основан на XenForo Resource Manager, поэтому настройка категории проста.<br />
+Несколько рекомендаций:<br />
+- Если Вы хотите, чтобы пользователи могли продавать физические продукты или услуги, не забудьте поставить галочку напротив надписи «Без файла»<br />
+- Если Вы хотите, чтобы пользователи могли продавать цифровые продукты (с лицензией или без нее), отметьте галочкой «Внешний URL» или «Загруженный файл», либо и то, и другое. В любом случае, мы рекомендуем использовать только «Загруженный файл», если Вы планируете разрешить гостям совершать покупки.]]></phrase>
+  <phrase title="xfa_rmmp_explain_sale_percentage" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Для каждой категории Вы можете установить процент от продаж, который Вы должны получать за каждый купленный ресурс данной категории. Процентная сумма автоматически зачисляется на счет PayPal, который Вы указали при покупке.<br />
+Вы можете поместить десятичное значение с максимум 2 десятичными разрядами.<br />
+Если процент на продажу также установлен на уровне опций, этот параметр переопределяет его.]]></phrase>
+  <phrase title="xfa_rmmp_explain_sale_percentage_paypal" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Установите адрес PayPal, который будет использоваться для процента на продажу для этой категории.]]></phrase>
+  <phrase title="xfa_rmmp_featuring_duration" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Сроки продвижений]]></phrase>
+  <phrase title="xfa_rmmp_featuring_expiration" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Заканчивающиеся продвижения]]></phrase>
+  <phrase title="xfa_rmmp_fees" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Сборы]]></phrase>
+  <phrase title="xfa_rmmp_fees_for_purchase" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Сборы за покупку]]></phrase>
+  <phrase title="xfa_rmmp_file_open" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Способ 4 - Открытие файла]]></phrase>
+  <phrase title="xfa_rmmp_fill_in_info_below_to_launch_purchase" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Пожалуйста, заполните информацию ниже, чтобы связаться с продавцом для покупки этого товара.]]></phrase>
+  <phrase title="xfa_rmmp_fill_your_info" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Заполните Вашу информацию]]></phrase>
+  <phrase title="xfa_rmmp_filter_by_currency" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Фильтровать по валюте]]></phrase>
+  <phrase title="xfa_rmmp_filter_by_license_status" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Фильтровать по статусу лицензии]]></phrase>
+  <phrase title="xfa_rmmp_filter_by_resource" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Фильтровать по ресурсу]]></phrase>
+  <phrase title="xfa_rmmp_filter_by_sale_type" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Фильтр по типу продажи]]></phrase>
+  <phrase title="xfa_rmmp_filter_by_status" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Фильтровать по статусу]]></phrase>
+  <phrase title="xfa_rmmp_first_name" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Имя]]></phrase>
+  <phrase title="xfa_rmmp_form_below_set_invoicing_info" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Форма ниже позволяет Вам настроить различную информацию, которая будет отображаться в счетах, сгенерированных для пользователя, если Вы установите флажок для активации выставления счетов. Счета будут доступны для любой продажи, совершенной после или до активации счета.]]></phrase>
+  <phrase title="xfa_rmmp_free_resource" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Бесплатный ресурс]]></phrase>
+  <phrase title="xfa_rmmp_from" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[От]]></phrase>
+  <phrase title="xfa_rmmp_from_all_users" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[От всех пользователей]]></phrase>
+  <phrase title="xfa_rmmp_from_user" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[От пользователя]]></phrase>
+  <phrase title="xfa_rmmp_go_back_to_your_purchases" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Вернуться к Вашим покупкам]]></phrase>
+  <phrase title="xfa_rmmp_gross" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Сумма]]></phrase>
+  <phrase title="xfa_rmmp_has_restriction_explain" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Если Ваш продукт имеет ограничения, например. на веб-сайт или компьютер, укажите это с помощью этой опции. Если для этого параметра установлено значение «да», кнопка «Купить» всегда будет видна, что позволит клиентам покупать несколько копий.<br />
+Не забудьте указать, какие ограничения есть в описании Вашего ресурса.]]></phrase>
+  <phrase title="xfa_rmmp_i_agree_terms_and_conditions" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Я согласен с Условиями и Положениями]]></phrase>
+  <phrase title="xfa_rmmp_in_preparation" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[В подготовке]]></phrase>
+  <phrase title="xfa_rmmp_inactive" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Неактивен]]></phrase>
+  <phrase title="xfa_rmmp_inactive_contact_seller" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Неактивен (связаться с продавцом)]]></phrase>
+  <phrase title="xfa_rmmp_income" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Доход]]></phrase>
+  <phrase title="xfa_rmmp_information_validated" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Ваша информация была подтверждена]]></phrase>
+  <phrase title="xfa_rmmp_invalid_domain_provided" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Указано неверное доменное имя, сайт либо недоступен, либо занесен в черный список. Если Вы не согласны с этим, обратитесь к администрации сайта.]]></phrase>
+  <phrase title="xfa_rmmp_invoice_reference_prefix" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Префикс ссылки на счет]]></phrase>
+  <phrase title="xfa_rmmp_invoicing" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Выставление счета]]></phrase>
+  <phrase title="xfa_rmmp_last_name" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Фамилия]]></phrase>
+  <phrase title="xfa_rmmp_last_sales" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Последние продажи]]></phrase>
+  <phrase title="xfa_rmmp_license_active" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Лицензия активна]]></phrase>
+  <phrase title="xfa_rmmp_license_already_set" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[URL-адрес лицензии уже установлен]]></phrase>
+  <phrase title="xfa_rmmp_license_cant_be_renewed" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Лицензия не может быть продлена]]></phrase>
+  <phrase title="xfa_rmmp_license_duration" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Срок действия лицензии]]></phrase>
+  <phrase title="xfa_rmmp_license_duration_explain" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Выберите срок действия лицензии, выраженный в днях, неделях, месяцах или годах, в течение которого пользователь имеет доступ к загрузке, установите 0 для неограниченной лицензии.]]></phrase>
+  <phrase title="xfa_rmmp_license_expired" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Лицензия истекла]]></phrase>
+  <phrase title="xfa_rmmp_license_manage" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Управление лицензией]]></phrase>
+  <phrase title="xfa_rmmp_license_not_active" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Предоставленная лицензия не активна]]></phrase>
+  <phrase title="xfa_rmmp_license_not_found" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Лицензия не найдена]]></phrase>
+  <phrase title="xfa_rmmp_license_renewal" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Продление лицензии]]></phrase>
+  <phrase title="xfa_rmmp_license_renewal_delay" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Введите количество дней до истечения срока действия лицензии, когда пользователи имеют право продлить свою лицензию.]]></phrase>
+  <phrase title="xfa_rmmp_license_set_url_before_download" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Установите URL-адрес домена для этой лицензии до загрузки]]></phrase>
+  <phrase title="xfa_rmmp_license_url" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[URL-адрес лицензии]]></phrase>
+  <phrase title="xfa_rmmp_license_url_set" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Установите свой URL-адрес]]></phrase>
+  <phrase title="xfa_rmmp_licenses" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Лицензии]]></phrase>
+  <phrase title="xfa_rmmp_logo" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Логотип]]></phrase>
+  <phrase title="xfa_rmmp_manage" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Управление лицензиями]]></phrase>
+  <phrase title="xfa_rmmp_manage_licenses" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Управление лицензиями]]></phrase>
+  <phrase title="xfa_rmmp_minimum_price" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Минимальное значение: {price}]]></phrase>
+  <phrase title="xfa_rmmp_monthly" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Ежемесячно]]></phrase>
+  <phrase title="xfa_rmmp_must_accept_cgv" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Вы должны согласиться с Правилами и Условиями]]></phrase>
+  <phrase title="xfa_rmmp_must_set_info_fields" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Вы должны указать поля Имя, Фамилия, Улица, Почтовый индекс, Город и Страна!]]></phrase>
+  <phrase title="xfa_rmmp_name" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Имя]]></phrase>
+  <phrase title="xfa_rmmp_nb_sales" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Продажи]]></phrase>
+  <phrase title="xfa_rmmp_net" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Чистыми]]></phrase>
+  <phrase title="xfa_rmmp_no_cgv_to_accept" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Там нет условий и положений, чтобы принять]]></phrase>
+  <phrase title="xfa_rmmp_no_featuring_duration_has_been_added_yet" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Продолжительность продвижения еще не была добавлена.]]></phrase>
+  <phrase title="xfa_rmmp_no_license_for_non_digital_product" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Нет лицензии на не цифровой продукт]]></phrase>
+  <phrase title="xfa_rmmp_no_license_found" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Лицензия не найдена]]></phrase>
+  <phrase title="xfa_rmmp_no_licenses_yet" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Там пока нет лицензий]]></phrase>
+  <phrase title="xfa_rmmp_no_permission_purchase" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[У вас нет разрешения на покупку]]></phrase>
+  <phrase title="xfa_rmmp_no_purchase_found" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Покупка не найдена]]></phrase>
+  <phrase title="xfa_rmmp_no_purchases_yet" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Пока нет покупок]]></phrase>
+  <phrase title="xfa_rmmp_no_sale_found" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Продажа не найдена]]></phrase>
+  <phrase title="xfa_rmmp_not_purchased_or_license_not_active" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Вы не приобрели этот продукт или Ваша лицензия не активна]]></phrase>
+  <phrase title="xfa_rmmp_not_purchased_or_no_url_or_license_not_active" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Вы не авторизованы для загрузки этого ресурса, это может быть по нескольким причинам:<br />
+- Вы не приобрели этот ресурс<br />
+- Срок действия вашей лицензии истек<br />
+- URL-адрес вашего сайта еще не установлен]]></phrase>
+  <phrase title="xfa_rmmp_not_set_yet" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Еще не установлено]]></phrase>
+  <phrase title="xfa_rmmp_nourl_specified" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[URL-адрес не указан]]></phrase>
+  <phrase title="xfa_rmmp_only_my_products" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Мои продукты]]></phrase>
+  <phrase title="xfa_rmmp_order_now_for_x" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Заказать сейчас за {cost}]]></phrase>
+  <phrase title="xfa_rmmp_other_mean" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Другие варианты (банковский перевод, чек, наличные, ...)]]></phrase>
+  <phrase title="xfa_rmmp_out_of_stock" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Недоступно - нет в наличии]]></phrase>
+  <phrase title="xfa_rmmp_overall_last_sales" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Общие последние продажи]]></phrase>
+  <phrase title="xfa_rmmp_overall_top_sales" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Общие топовые продажи]]></phrase>
+  <phrase title="xfa_rmmp_owned_by" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Принадлежит]]></phrase>
+  <phrase title="xfa_rmmp_owner" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Владелец]]></phrase>
+  <phrase title="xfa_rmmp_pay_now" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Оплатить сейчас]]></phrase>
+  <phrase title="xfa_rmmp_pay_to_feature_resource" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Оплатить продвижение своего ресурса]]></phrase>
+  <phrase title="xfa_rmmp_payment" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Оплата]]></phrase>
+  <phrase title="xfa_rmmp_payment_due" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Заплатить до]]></phrase>
+  <phrase title="xfa_rmmp_payment_error" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Ошибка оплаты]]></phrase>
+  <phrase title="xfa_rmmp_payment_info" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Информация об оплате]]></phrase>
+  <phrase title="xfa_rmmp_payment_paid" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Оплата оплачена]]></phrase>
+  <phrase title="xfa_rmmp_payment_pending" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[В ожидании]]></phrase>
+  <phrase title="xfa_rmmp_payment_pending_error" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Ваша покупка была правильно зарегистрирована. Однако Ваш платеж в настоящее время ожидает рассмотрения, поэтому он ожидает подтверждения от продавца.<br />
+Мы рекомендуем Вам связаться с ним.]]></phrase>
+  <phrase title="xfa_rmmp_payment_pending_manual" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[В ожидании (Ручной)]]></phrase>
+  <phrase title="xfa_rmmp_payments_conf" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Конфигурация MarketPlace]]></phrase>
+  <phrase title="xfa_rmmp_paypal_address" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Адрес PayPal]]></phrase>
+  <phrase title="xfa_rmmp_paypal_transaction_id" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[PayPal Id]]></phrase>
+  <phrase title="xfa_rmmp_pending" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[В ожидании]]></phrase>
+  <phrase title="xfa_rmmp_period" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Период]]></phrase>
+  <phrase title="xfa_rmmp_period_type" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Тип периода]]></phrase>
+  <phrase title="xfa_rmmp_phone" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Телефон]]></phrase>
+  <phrase title="xfa_rmmp_physical_product" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Физический продукт]]></phrase>
+  <phrase title="xfa_rmmp_please_confirm_duration_deletion" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Пожалуйста, подтвердите, что Вы хотите удалить следующее продвижение]]></phrase>
+  <phrase title="xfa_rmmp_please_confirm_that_you_want_to_accept_following_featuring_purchase" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Пожалуйста, подтвердите, что Вы хотите принять следующее продвижение]]></phrase>
+  <phrase title="xfa_rmmp_please_confirm_that_you_want_to_refund_following_featuring_purchase" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Пожалуйста, подтвердите, что Вы хотите сделать возврат следующего продвижения]]></phrase>
+  <phrase title="xfa_rmmp_please_confirm_that_you_want_to_remove_resource_from_sale" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Пожалуйста, подтвердите, что Вы хотите удалить этот ресурс из продажи.<br />
+Осторожно: любые данные, связанные с продажами (покупки, лицензии ...) будут удалены из базы данных.]]></phrase>
+  <phrase title="xfa_rmmp_pos" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[% от продаж]]></phrase>
+  <phrase title="xfa_rmmp_predefined_time_periods" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Предопределенные периоды времени]]></phrase>
+  <phrase title="xfa_rmmp_previous_month" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Предыдущий месяц]]></phrase>
+  <phrase title="xfa_rmmp_previous_quarter" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Предыдущий квартал]]></phrase>
+  <phrase title="xfa_rmmp_previous_week" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Предыдущая неделя]]></phrase>
+  <phrase title="xfa_rmmp_previous_year" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Предыдущий год]]></phrase>
+  <phrase title="xfa_rmmp_price" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Цена]]></phrase>
+  <phrase title="xfa_rmmp_price_below_minimum_required_value" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Введенная Вами цена ниже минимально необходимого значения]]></phrase>
+  <phrase title="xfa_rmmp_product_has_restriction" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Ограничение]]></phrase>
+  <phrase title="xfa_rmmp_product_require_url" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Требовать URL-адрес]]></phrase>
+  <phrase title="xfa_rmmp_product_type_not_allowed_in_category" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Тип продукта не разрешен в этой категории.]]></phrase>
+  <phrase title="xfa_rmmp_products" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Мои продукты]]></phrase>
+  <phrase title="xfa_rmmp_purchase" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Покупка]]></phrase>
+  <phrase title="xfa_rmmp_purchase_and_resource_do_not_match" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Запрашиваемая покупка и транзакция не совпадают]]></phrase>
+  <phrase title="xfa_rmmp_purchase_date" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Дата покупки]]></phrase>
+  <phrase title="xfa_rmmp_purchase_featured_list_accept" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Принять]]></phrase>
+  <phrase title="xfa_rmmp_purchase_not_found" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Покупка не найдена]]></phrase>
+  <phrase title="xfa_rmmp_purchase_resource_featuring" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Купить продвижение ресурса]]></phrase>
+  <phrase title="xfa_rmmp_purchase_through_other_mean_than_paypal" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Покупка через другой вариант, не PayPal]]></phrase>
+  <phrase title="xfa_rmmp_purchase_type" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Тип]]></phrase>
+  <phrase title="xfa_rmmp_purchase_unavailable_no_durations_contact_admin" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Покупка недоступна из-за отсутствия продвижения, обратитесь к администратору форума.]]></phrase>
+  <phrase title="xfa_rmmp_purchased" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Купленный]]></phrase>
+  <phrase title="xfa_rmmp_purchased_by" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Приобретено]]></phrase>
+  <phrase title="xfa_rmmp_purchased_on" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Куплено на]]></phrase>
+  <phrase title="xfa_rmmp_purchaser" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Покупатель]]></phrase>
+  <phrase title="xfa_rmmp_purchases" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Покупки]]></phrase>
+  <phrase title="xfa_rmmp_purchases_count" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Количество покупок]]></phrase>
+  <phrase title="xfa_rmmp_quantity" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Количество]]></phrase>
+  <phrase title="xfa_rmmp_quantity_available" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Количество в наличии]]></phrase>
+  <phrase title="xfa_rmmp_redirect_to_paypal_for_resource_featuring_purchase" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Перенаправить на PayPal для покупки продвижения ресурса]]></phrase>
+  <phrase title="xfa_rmmp_redirect_to_paypal_for_resource_purchase" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Перенаправить на PayPal для покупки ресурсов]]></phrase>
+  <phrase title="xfa_rmmp_refund" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Возврат]]></phrase>
+  <phrase title="xfa_rmmp_refund_purchase" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Установить как возмещенный]]></phrase>
+  <phrase title="xfa_rmmp_refunded" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Возвращено]]></phrase>
+  <phrase title="xfa_rmmp_register_now_to_buy_copy_for_x" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Зарегистрируйтесь сейчас и купите копию за {cost}]]></phrase>
+  <phrase title="xfa_rmmp_register_now_to_order_for_x" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Зарегистрируйтесь сейчас и закажите за {cost}]]></phrase>
+  <phrase title="xfa_rmmp_remove_from_sale" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Удалить из продажи]]></phrase>
+  <phrase title="xfa_rmmp_renew_now" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Продлить сейчас]]></phrase>
+  <phrase title="xfa_rmmp_renew_now_for_x" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Продлить сейчас за {cost}]]></phrase>
+  <phrase title="xfa_rmmp_renewal" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Обновить]]></phrase>
+  <phrase title="xfa_rmmp_renewal_delay" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Отсрочка продления]]></phrase>
+  <phrase title="xfa_rmmp_renewal_price" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Цена продления]]></phrase>
+  <phrase title="xfa_rmmp_renewals" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Продление]]></phrase>
+  <phrase title="xfa_rmmp_request_payment_to_download" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Запросить оплату для доступа к загрузке]]></phrase>
+  <phrase title="xfa_rmmp_requested_featuring_duration_not_found" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Запрашиваемое продвижение не может быть найдено.]]></phrase>
+  <phrase title="xfa_rmmp_requested_featuring_purchase_not_found" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Запрашиваемая покупка не найдена.]]></phrase>
+  <phrase title="xfa_rmmp_requested_user_not_found" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Запрашиваемый пользователь не найден]]></phrase>
+  <phrase title="xfa_rmmp_require_url_explain" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Установите для этого параметра значение «да», если Вы хотите, чтобы клиенты вводили URL-адрес, прежде чем смогут загрузить Ваш продукт.]]></phrase>
+  <phrase title="xfa_rmmp_resource_description" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Описание ресурса]]></phrase>
+  <phrase title="xfa_rmmp_resource_featuring_purchases" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Покупки продвижения ресурса]]></phrase>
+  <phrase title="xfa_rmmp_resource_is_not_paid" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Ресурс не оплачен]]></phrase>
+  <phrase title="xfa_rmmp_resource_not_for_sale" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Ресурс не продается]]></phrase>
+  <phrase title="xfa_rmmp_resource_not_found" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Ресурс не найден]]></phrase>
+  <phrase title="xfa_rmmp_resource_only_accept_paypal" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Для этого ресурса принимаются только платежи через PayPal]]></phrase>
+  <phrase title="xfa_rmmp_resource_type_change_not_allowed" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Это изменение типа ресурса не допускается.]]></phrase>
+  <phrase title="xfa_rmmp_restrict_support_thread_access" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Ограничить доступ к теме поддержки]]></phrase>
+  <phrase title="xfa_rmmp_restrict_support_thread_access_explain" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Если этот параметр установлен, и Вы выбрали параметр автоматического создания темы поддержки при создании ресурса, доступ к потоку для платных ресурсов будет ограничен пользователем, который приобрел продукт и имеет действующую лицензию (для цифровых продуктов с ограничением).]]></phrase>
+  <phrase title="xfa_rmmp_sale_percentage" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Процент от продажи]]></phrase>
+  <phrase title="xfa_rmmp_sale_percentage_paypal" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Процент от продажи PayPal]]></phrase>
+  <phrase title="xfa_rmmp_sale_type" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Тип продажи]]></phrase>
+  <phrase title="xfa_rmmp_sales" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Продажи]]></phrase>
+  <phrase title="xfa_rmmp_save_duration" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Сохранить продолжительность]]></phrase>
+  <phrase title="xfa_rmmp_search_among_purchases" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Поиск среди покупок]]></phrase>
+  <phrase title="xfa_rmmp_search_among_your_purchases" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Искать только Ваши покупки]]></phrase>
+  <phrase title="xfa_rmmp_search_in_your_purchases" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Поиск в Ваших покупках]]></phrase>
+  <phrase title="xfa_rmmp_search_name_only" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Поиск только по названию ресурса]]></phrase>
+  <phrase title="xfa_rmmp_select_download_version" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Выберите версию для загрузки]]></phrase>
+  <phrase title="xfa_rmmp_select_duration" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Выберите продолжительность]]></phrase>
+  <phrase title="xfa_rmmp_select_payment_mean" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Выберите способ оплаты]]></phrase>
+  <phrase title="xfa_rmmp_sell_on_out_of_stock" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Распродано]]></phrase>
+  <phrase title="xfa_rmmp_sell_on_out_of_stock_explain" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Установите для этого параметра значение «да», если Вы хотите, чтобы продажи Вашего продукта продолжались, даже если у Вас закончился товар.]]></phrase>
+  <phrase title="xfa_rmmp_sell_resource" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Продажа ресурса]]></phrase>
+  <phrase title="xfa_rmmp_seller_name_or_company_name" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Название продавца или компании]]></phrase>
+  <phrase title="xfa_rmmp_sent" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Отправить]]></phrase>
+  <phrase title="xfa_rmmp_service_offer" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Предложение услуги]]></phrase>
+  <phrase title="xfa_rmmp_set_the_url_for_this_license" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Установите URL-адрес домена, на котором будет использоваться эта лицензия]]></phrase>
+  <phrase title="xfa_rmmp_shipment" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Доставка]]></phrase>
+  <phrase title="xfa_rmmp_shipment_data" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Данные доставки]]></phrase>
+  <phrase title="xfa_rmmp_shipment_data_explain" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Бесплатный ввод. Например, Вы можете ввести URL-адрес для отслеживания доставки или трек-номер доставки.]]></phrase>
+  <phrase title="xfa_rmmp_shipment_info" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Информация о доставке]]></phrase>
+  <phrase title="xfa_rmmp_shipment_status" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Статус доставки]]></phrase>
+  <phrase title="xfa_rmmp_simple_curl" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Способ 1 - Простой curl]]></phrase>
+  <phrase title="xfa_rmmp_site_url" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Адрес сайта]]></phrase>
+  <phrase title="xfa_rmmp_sold_by" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Продан]]></phrase>
+  <phrase title="xfa_rmmp_sort_and_filter" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Сортировать и фильтровать]]></phrase>
+  <phrase title="xfa_rmmp_sort_by" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Сортировать по]]></phrase>
+  <phrase title="xfa_rmmp_sort_order" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Порядок сортировки]]></phrase>
+  <phrase title="xfa_rmmp_start_date" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Дата начала]]></phrase>
+  <phrase title="xfa_rmmp_state" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Область]]></phrase>
+  <phrase title="xfa_rmmp_statistics" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Статистика]]></phrase>
+  <phrase title="xfa_rmmp_statistics_configuration" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Настройка статистики]]></phrase>
+  <phrase title="xfa_rmmp_statistics_notice" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Если Вы выбрали получение данных обо всех валютах, будет отображаться только количество продаж.]]></phrase>
+  <phrase title="xfa_rmmp_status" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Статус]]></phrase>
+  <phrase title="xfa_rmmp_street" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Улица]]></phrase>
+  <phrase title="xfa_rmmp_street2" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Улица 2]]></phrase>
+  <phrase title="xfa_rmmp_thank_you_x_for_your_purchase_featured_of_y" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Спасибо, {username}, за Вашу покупку продвижения для: {resource}]]></phrase>
+  <phrase title="xfa_rmmp_thank_you_x_for_your_purchase_featured_of_y_text" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Уважаемый {buyer},<br />
+<br />
+Вы приобрели продвижение для {resource} и оно успешно сохранено.<br />
+<br />
+Покупка должна быть проверена, Администрация может одобрить Ваш запрос или вернуть деньги.<br />
+<br />
+Мы надеемся скоро увидеть Вас снова на нашем {board},<br />
+Администрация]]></phrase>
+  <phrase title="xfa_rmmp_thank_you_x_for_your_purchase_of_y" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Спасибо, {username},  за Вашу покупку: {resource}]]></phrase>
+  <phrase title="xfa_rmmp_thank_you_x_for_your_purchase_of_y_text" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Уважаемый {buyer},<br />
+<br />
+Ваша покупка {resource} успешно подтверждена.<br />
+<br />
+Если это цифровой продукт, Вы можете прямо сейчас зайти на наш форум {board}, чтобы загрузить продукт, после того, как укажите свое доменное имя, если это требуется.<br />
+<br />
+Мы надеемся скоро увидеть Вас снова на нашем {board},<br />
+Администрация]]></phrase>
+  <phrase title="xfa_rmmp_thank_you_x_for_your_renewal_of_y" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Спасибо, {username} за продление: {resource}]]></phrase>
+  <phrase title="xfa_rmmp_thank_you_x_for_your_renewal_of_y_text" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Уважаемый {buyer},<br />
+<br />
+Ваша покупка продления для {resource} была успешно подтверждена.<br />
+Ваша лицензия теперь продлена.<br />
+<br />
+Мы надеемся скоро увидеть Вас снова на нашем {board},<br />
+Администрация]]></phrase>
+  <phrase title="xfa_rmmp_thank_your_for_payment" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Спасибо за Вашу оплату!]]></phrase>
+  <phrase title="xfa_rmmp_thank_your_for_payment_you_are_redirected" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Спасибо за Вашу оплату, Вы будете сейчас перенаправлены!]]></phrase>
+  <phrase title="xfa_rmmp_this_image_should_be_size" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Это изображение должно быть максимум 250px на 350px]]></phrase>
+  <phrase title="xfa_rmmp_this_logo_should_be_size" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Этот логотип должен быть максимум 400px на 250px]]></phrase>
+  <phrase title="xfa_rmmp_tick_box_to_setup_resource_sale" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Установите этот флажок для продажи цифрового продукта, физического товара или услуги.]]></phrase>
+  <phrase title="xfa_rmmp_to" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[До]]></phrase>
+  <phrase title="xfa_rmmp_top_purchases" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Самые покупаемые]]></phrase>
+  <phrase title="xfa_rmmp_top_sales" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Самые продаваемые]]></phrase>
+  <phrase title="xfa_rmmp_total_due" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Итого к оплате]]></phrase>
+  <phrase title="xfa_rmmp_transaction_doesnt_exist" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Запрошенная транзакция не существует]]></phrase>
+  <phrase title="xfa_rmmp_transaction_not_found" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Транзакция не найдена]]></phrase>
+  <phrase title="xfa_rmmp_transfer_license" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Передача лицензии]]></phrase>
+  <phrase title="xfa_rmmp_type" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Тип]]></phrase>
+  <phrase title="xfa_rmmp_type_number_of_items" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Количество элементов]]></phrase>
+  <phrase title="xfa_rmmp_unlimited" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Неограниченный]]></phrase>
+  <phrase title="xfa_rmmp_unpaid" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Неоплаченный]]></phrase>
+  <phrase title="xfa_rmmp_update_license" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Обновить лицензию]]></phrase>
+  <phrase title="xfa_rmmp_upload_new_logo" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Загрузить новый логотип]]></phrase>
+  <phrase title="xfa_rmmp_upload_new_resource_image" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Загрузить новое изображение ресурса]]></phrase>
+  <phrase title="xfa_rmmp_url_without_http" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[URL-адрес (без http: //)]]></phrase>
+  <phrase title="xfa_rmmp_use_category_wide_payments" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Использовать информацию об оплате для всей категории]]></phrase>
+  <phrase title="xfa_rmmp_use_forum_wide_payments" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Использовать информацию об оплате на форуме]]></phrase>
+  <phrase title="xfa_rmmp_username" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Имя пользователя]]></phrase>
+  <phrase title="xfa_rmmp_validate" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Подтвердить]]></phrase>
+  <phrase title="xfa_rmmp_validate_purchase" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Подтвердить покупку]]></phrase>
+  <phrase title="xfa_rmmp_validated" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Подтверждено]]></phrase>
+  <phrase title="xfa_rmmp_validation_date" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Дата подтверждения]]></phrase>
+  <phrase title="xfa_rmmp_view_sales" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Просмотр продаж]]></phrase>
+  <phrase title="xfa_rmmp_view_shipment_data" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Просмотр данных доставки]]></phrase>
+  <phrase title="xfa_rmmp_weekly" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Еженедельно]]></phrase>
+  <phrase title="xfa_rmmp_with_renewal" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[с продлением]]></phrase>
+  <phrase title="xfa_rmmp_with_restriction" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[с ограничением (сайт/компьютер/другое)]]></phrase>
+  <phrase title="xfa_rmmp_with_url_required_to_download" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[URL-адрес необходим для загрузки]]></phrase>
+  <phrase title="xfa_rmmp_x_bought_your_resource_y" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[{name} купил Ваш ресурс {title}]]></phrase>
+  <phrase title="xfa_rmmp_x_has_been_refunded_for_renewal_resource_y" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[{name} было возмещено за его продление Вашего ресурса {title}]]></phrase>
+  <phrase title="xfa_rmmp_x_has_been_refunded_for_your_resource_y" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[{name} было возвращено для Вашего ресурса {title}]]></phrase>
+  <phrase title="xfa_rmmp_x_order_of_y_updated" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[{username}, заказ {resource} обновлен: {shipment_status}]]></phrase>
+  <phrase title="xfa_rmmp_x_order_of_y_updated_text" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Уважаемый {buyer},<br />
+<br />
+Ваш заказ {resource} был обновлен.<br />
+<br />
+Теперь "{shipment_status}".<br />
+<br />
+Мы надеемся скоро увидеть Вас снова на нашем {board},<br />
+Администрация]]></phrase>
+  <phrase title="xfa_rmmp_x_purchase_featured_of_y_expire" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[{username}, покупка продвижения {resource} истекла]]></phrase>
+  <phrase title="xfa_rmmp_x_purchase_featured_of_y_expire_text" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Уважаемый {buyer},<br />
+<br />
+Срок действия вашего продвижения {resource} истек.<br />
+<br />
+Мы надеемся скоро увидеть Вас снова на нашем форуме,<br />
+Администрация]]></phrase>
+  <phrase title="xfa_rmmp_x_purchase_featured_of_y_refund" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[{username}, покупка продления {resource} возвращена]]></phrase>
+  <phrase title="xfa_rmmp_x_purchase_featured_of_y_refund_text" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Уважаемый {buyer},<br />
+<br />
+Ваше покупка продвижения {resource} была успешно возвращена.<br />
+<br />
+Мы надеемся скоро увидеть Вас снова на нашем {board},<br />
+Администрация]]></phrase>
+  <phrase title="xfa_rmmp_x_purchase_featured_of_y_validate" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[{username}, покупка продвижения {resource} подтверждена]]></phrase>
+  <phrase title="xfa_rmmp_x_purchase_featured_of_y_validate_text" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Уважаемый  {buyer},<br />
+<br />
+Ваша покупка продвижения {resource} была успешно подтверждена.<br />
+<br />
+Мы надеемся скоро увидеть Вас снова на нашем {board},<br />
+Администрация]]></phrase>
+  <phrase title="xfa_rmmp_x_purchase_of_y_refund" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[{username}, покупка {resource} возвращена]]></phrase>
+  <phrase title="xfa_rmmp_x_purchase_of_y_refund_text" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Уважаемый {buyer},<br />
+<br />
+Ваша покупка {resource} была успешно возвращена.<br />
+<br />
+Мы надеемся скоро увидеть Вас снова на нашем {board},<br />
+Администрация]]></phrase>
+  <phrase title="xfa_rmmp_x_purchase_renewal_of_y_refund" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[{username}, покупка продления для {resource} возвращена]]></phrase>
+  <phrase title="xfa_rmmp_x_purchase_renewal_of_y_refund_text" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Уважаемый {buyer},<br />
+<br />
+Ваша покупка продления для {resource} успешно возмещена.<br />
+<br />
+Мы надеемся скоро увидеть Вас снова на нашем {board},<br />
+Администрация]]></phrase>
+  <phrase title="xfa_rmmp_x_renewed_license_for_resource_y" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[{name} продлил лицензию на Ваш ресурс {title}]]></phrase>
+  <phrase title="xfa_rmmp_x_welcome_in_your_dashboard" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[{user}, добро пожаловать в Вашу панель]]></phrase>
+  <phrase title="xfa_rmmp_you_are_going_to_be_redirected_to_paypal_wait" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Вы будете перенаправлены на PayPal, пожалуйста, подождите ...]]></phrase>
+  <phrase title="xfa_rmmp_you_are_not_resource_owner" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Вы не являетесь владельцем ресурса]]></phrase>
+  <phrase title="xfa_rmmp_you_dont_have_access_to_this_page" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[У Вас нет доступа к этой странице]]></phrase>
+  <phrase title="xfa_rmmp_you_not_currently_purchased_any_resources" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Вы еще не приобрели никаких ресурсов]]></phrase>
+  <phrase title="xfa_rmmp_your_last_sales" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Ваши последние продажи]]></phrase>
+  <phrase title="xfa_rmmp_your_licenses" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Ваши лицензии]]></phrase>
+  <phrase title="xfa_rmmp_your_purchase_of_x" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Ваша покупка {resource}]]></phrase>
+  <phrase title="xfa_rmmp_your_purchase_of_x_msg" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Уважаемый {username}
+
+Благодарим Вас за покупку [url={resourceLink}]{resource}[/url].
+
+Мы свяжемся с Вами в ближайшее время, чтобы предоставить Вам информацию о способах оплаты.
+
+Наилучшие пожелания,
+{sellername}]]></phrase>
+  <phrase title="xfa_rmmp_your_purchase_of_x_msg_with_invoice_link" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Уважаемый {username}
+
+Благодарим Вас за покупку [url={resourceLink}]{resource}[/url].
+
+Ваш счет доступен [url={invoiceLink}]здесь[/url].
+Мы свяжемся с Вами в ближайшее время, чтобы предоставить Вам информацию о способе оплаты.
+
+В настоящее время счет-фактура имеет значение «Срок оплаты» и будет автоматически изменен на «Платеж оплачен», как только мы получим Ваш платеж.
+
+Наилучшие пожелания,
+{sellername}]]></phrase>
+  <phrase title="xfa_rmmp_your_purchases" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Ваши покупки]]></phrase>
+  <phrase title="xfa_rmmp_your_resource_x_is_out_of_stock" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Ваш ресурс {title} закончился]]></phrase>
+  <phrase title="xfa_rmmp_your_top_sales" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Ваши лучшие продажи]]></phrase>
+  <phrase title="xfa_rmmp_zip" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Индекс]]></phrase>
+</language>
