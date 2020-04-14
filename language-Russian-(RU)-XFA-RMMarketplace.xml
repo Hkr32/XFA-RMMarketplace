@@ -316,7 +316,7 @@
   <phrase title="xfa_rmmp_product_require_url" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Требовать URL-адрес]]></phrase>
   <phrase title="xfa_rmmp_product_type_not_allowed_in_category" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Тип продукта не разрешен в этой категории.]]></phrase>
   <phrase title="xfa_rmmp_products" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Мои продукты]]></phrase>
-  <phrase title="xfa_rmmp_purchase" addon_id="XFA/RMMarketplace" version_id="904030090" version_string="4.3.0"><![CDATA[Купить]]></phrase>
+  <phrase title="xfa_rmmp_purchase" addon_id="XFA/RMMarketplace" version_id="904030090" version_string="4.3.0"><![CDATA[Покупка]]></phrase>
   <phrase title="xfa_rmmp_purchase_and_resource_do_not_match" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Запрашиваемая покупка и транзакция не совпадают]]></phrase>
   <phrase title="xfa_rmmp_purchase_confirm" addon_id="XFA/RMMarketplace" version_id="904030090" version_string="4.3.0"><![CDATA[Подтверждение покупки]]></phrase>
   <phrase title="xfa_rmmp_purchase_date" addon_id="XFA/RMMarketplace" version_id="904020290" version_string="4.2.2"><![CDATA[Дата покупки]]></phrase>
