@@ -2,22 +2,23 @@
 Русский язык плагина Xen Factory RM Marketplace для XenForo 2
 
 ## Файлы
+### Скачать
 * [XenForo](https://xenforo.com/)
 * [Core](https://www.xen-factory.com/index.php?resources/core.90/)
 * [XFA-RMMarketplace](https://www.xen-factory.com/index.php?resources/rm-marketplace-xf2.92/)
 
+### Репозиторий
+* [GitHub](https://github.com/ruXenForo/russian-XFA-RMMarketplace)
+
 ## Требования плагина
-* XenForo 2.1 (Версия RM Marketplace 4.1.5+)
-* XenForo Resource Manager 2.1 (Версия RM Marketplace 4.1.5+)
+* XenForo 2.2 (Версия RM Marketplace 4.1.5+)
+* XenForo Resource Manager 2.2 (Версия RM Marketplace 4.1.5+)
 * Core > 1.5.8
 
-## Актуальная версия
-  * XenForo 2.1.9
-  * RM Marketplace 4.3.3
-
 ## Совместимая версия
-  * XenForo 2.1.9
-  * RM Marketplace 4.3.3
+* XenForo 2.2.1
+* XenForo Resource Manager 2.2
+* RM Marketplace 4.3.4
 
 ## Описание плагина
 RM Makertplace позволяет Вам и/или Вашим пользователям продавать ресурсы из XenForo Resource Manager (менеджера ресурсов), как на рынке!<br />
